@@ -2,8 +2,7 @@
 Title:    minika_kollision.ino
 Author:   Lawrence Gabriel Castillo
 Date:     2019-Feb-17
-Desc:     Deployed to AdaFruit Flora for use with NeoPixel LED strands
-          Triggers LEDs to light in a pre-determined light sequences.
+Desc:     Output light sequences to LED strips.
 Purpose:  Lighting patterns developed for artist Vanessa Sun. Vanessa is 
           augmenting an outfit in support of Minika Ko fashion and tech show, 
           "Kollision."
@@ -11,6 +10,7 @@ Build:    Arduino 1.8.6; Arduino AVR Boards 1.6.22 (LilyPad);
           AdaFruit AVR Boards 1.4.13 (Flora); AdaFruit NeoPixel 1.1.8
 Deploy:   LilyPad Arduino, Processor ATmega328P, Port Dev/ttyUSB1
           AdaFruit Flora, Port Dev/ttyACM0 (AdaFruit Flora)
+          AdaFruit NeoPixel LED Strand
 */
 
 #include <Adafruit_NeoPixel.h>
